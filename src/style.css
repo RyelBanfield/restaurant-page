@@ -1,4 +1,4 @@
-header {
+.header {
   position: relative;
   text-align: center;
   color: white;
@@ -19,7 +19,7 @@ header {
 
 .header-text {
   position: absolute;
-  top: 5%;
+  top: 10%;
   padding: 10px;
   border-radius: 5%;
   background-color: #343a40;
