@@ -1,9 +1,8 @@
 const renderContact = () => {
   const contact = document.createElement('div');
-  contact.classList.add('contact', 'container')
-
+  contact.classList.add('contactDiv', 'container')
   contact.innerHTML = `
-  <form>
+  <form class="mt-5 mb-5">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
