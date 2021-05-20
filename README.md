@@ -4,7 +4,8 @@
 
 A simple restaurant website.
 
-This website was built using just JavaScript to generate all of the content on the page.
+This website was built using just JavaScript to generate all of the content on
+the page.
 
 ![screenshot](./Screenshot.png)
 
@@ -17,8 +18,10 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-- Download or clone this repo by using `git clone https://github.com/RyelBanfield/restaurant-page.git`
-- Enter the project folder and run locally by using a VS Code extension such as `Live Server`.
+- Download or clone this repo by using
+  `git clone https://github.com/RyelBanfield/restaurant-page.git`
+- Enter the project folder and run locally by using a VS Code extension such as
+  `Live Server`.
 
 ## Author
 
