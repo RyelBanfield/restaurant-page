@@ -1,6 +1,6 @@
 const renderContact = () => {
-  const contact = document.createElement('div');
-  contact.classList.add('contactDiv', 'container');
+  const contact = document.createElement("div");
+  contact.classList.add("contactDiv", "container");
   contact.innerHTML = `
   <form class="mt-5 mb-5">
     <div class="mb-3">

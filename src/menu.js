@@ -1,9 +1,14 @@
 const renderMenu = () => {
-  const menu = document.createElement('div');
-  menu.classList.add('menuDiv', 'container', 'd-flex', 'flex-wrap',
-                     'justify-content-evenly');
+  const menu = document.createElement("div");
+  menu.classList.add(
+    "menuDiv",
+    "container",
+    "d-flex",
+    "flex-wrap",
+    "justify-content-evenly"
+  );
 
-  const cardOne = document.createElement('div');
+  const cardOne = document.createElement("div");
   cardOne.innerHTML = `
   <div class="card hvr-pulse" style="width: 18rem;">
     <img src="https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
@@ -14,7 +19,7 @@ const renderMenu = () => {
   </div>`;
   menu.appendChild(cardOne);
 
-  const cardTwo = document.createElement('div');
+  const cardTwo = document.createElement("div");
   cardTwo.innerHTML = `
   <div class="card hvr-pulse" style="width: 18rem;">
     <img src="https://images.pexels.com/photos/3762075/pexels-photo-3762075.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
@@ -25,7 +30,7 @@ const renderMenu = () => {
   </div>`;
   menu.appendChild(cardTwo);
 
-  const cardThree = document.createElement('div');
+  const cardThree = document.createElement("div");
   cardThree.innerHTML = `
   <div class="card hvr-pulse" style="width: 18rem;">
     <img src="https://images.pexels.com/photos/825661/pexels-photo-825661.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" class="card-img-top" alt="...">
@@ -36,7 +41,7 @@ const renderMenu = () => {
   </div>`;
   menu.appendChild(cardThree);
 
-  const cardFour = document.createElement('div');
+  const cardFour = document.createElement("div");
   cardFour.innerHTML = `
   <div class="card hvr-pulse" style="width: 18rem;">
     <img src="https://images.pexels.com/photos/2741457/pexels-photo-2741457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">

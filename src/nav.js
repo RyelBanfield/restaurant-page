@@ -1,7 +1,12 @@
 const renderNav = () => {
-  const navbar = document.createElement('nav');
-  navbar.classList.add('navbar', 'navbar-dark', 'bg-dark', 'd-flex',
-                       'justify-content-center');
+  const navbar = document.createElement("nav");
+  navbar.classList.add(
+    "navbar",
+    "navbar-dark",
+    "bg-dark",
+    "d-flex",
+    "justify-content-center"
+  );
   navbar.innerHTML = `
   <ul class="navbar-nav flex-row">
     <li class="nav-item mx-3"> <a class='home nav-link hvr-pulse' href="#">Home</a> </li>
