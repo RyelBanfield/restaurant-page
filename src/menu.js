@@ -1,6 +1,7 @@
 const renderMenu = () => {
   const menu = document.createElement('div');
-  menu.classList.add('menuDiv', 'container', 'd-flex', 'flex-wrap', 'justify-content-evenly');
+  menu.classList.add('menuDiv', 'container', 'd-flex', 'flex-wrap',
+                     'justify-content-evenly');
 
   const cardOne = document.createElement('div');
   cardOne.innerHTML = `

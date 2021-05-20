@@ -8,7 +8,8 @@ const renderMain = () => {
 
   const mainAboutUsContent = document.createElement('p');
   mainAboutUsContent.classList.add('fs-4');
-  mainAboutUsContent.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ac dui quis rhoncus. Nullam sodales lobortis blandit. Aliquam facilisis mi vitae sapien bibendum tincidunt. Sed iaculis nisl eget ipsum fermentum, eu faucibus lectus egestas. Nulla ac varius lorem. Vestibulum sodales elit id nisi placerat hendrerit. Nam faucibus lacus in enim bibendum ultrices.';
+  mainAboutUsContent.innerHTML =
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis ac dui quis rhoncus. Nullam sodales lobortis blandit. Aliquam facilisis mi vitae sapien bibendum tincidunt. Sed iaculis nisl eget ipsum fermentum, eu faucibus lectus egestas. Nulla ac varius lorem. Vestibulum sodales elit id nisi placerat hendrerit. Nam faucibus lacus in enim bibendum ultrices.';
   main.appendChild(mainAboutUsContent);
 
   const infoDiv = document.createElement('div');
