@@ -1,6 +1,6 @@
 const renderContact = () => {
   const contact = document.createElement('div');
-  contact.classList.add('contactDiv', 'container')
+  contact.classList.add('contactDiv', 'container');
   contact.innerHTML = `
   <form class="mt-5 mb-5">
     <div class="mb-3">
@@ -13,7 +13,7 @@ const renderContact = () => {
       <input type="text" class="form-control" id="message">
     </div>
     <button type="submit" class="btn btn-dark">Submit</button>
-  </form>`
+  </form>`;
   return contact;
 };
 export default renderContact;
