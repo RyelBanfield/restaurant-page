@@ -18,7 +18,7 @@ Additional description about the project and its features.
 ## Getting Started
 
 - Download or clone this repo by using `git clone https://github.com/RyelBanfield/restaurant-page.git`
-- Enter the project folder and run locally by using a VS Code extension such as `Live Server`.
+- Enter the project folder and run locally by using `npm start`.
 
 ## Author
 
